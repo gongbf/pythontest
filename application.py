@@ -7,5 +7,4 @@ import imutils.text
 @app.route("/")
 def hello():
 
-
-    return send_file('images/image.jpg', mimetype='image/gif')
+    return "hello!"
